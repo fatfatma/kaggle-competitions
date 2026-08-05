@@ -231,9 +231,3 @@ python src/main_record_model.py
 - Optuna: hiperparametre optimizasyonu
 
 ---
-
-## 📌 Son Not
-
-Bu repo artık kalabalık ara çıktılar yerine, deneyleri açıklayan temiz bir README ve yeniden üretilebilir tek bir nihai model dosyası içeriyor. Amaç, Kaggle çalışmalarını sadece “kod” olarak değil, karar mantığı olan bir araştırma günlüğü olarak sunmak.
-
-Reponu GitHub’a yüklediğinde hem teknik olarak düzenli hem de anlatı olarak güçlü bir portfolyo parçası elde etmiş olacaksın.
