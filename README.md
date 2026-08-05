@@ -1,4 +1,4 @@
-# 🚢 Titanic: Machine Learning from Disaster (Kaggle Solution)
+#  Titanic: Machine Learning from Disaster (Kaggle Solution)
 
 ![Kaggle Score](https://img.shields.io/badge/Kaggle_Public_Score-0.78229-blue?style=for-the-badge&logo=kaggle)
 ![Python](https://img.shields.io/badge/Python-3.10+-yellow?style=for-the-badge&logo=python)
@@ -11,7 +11,7 @@ Yarışmada rastgele veya veri sızıntılı (data leakage) yöntemler yerine; *
 
 ---
 
-## 🎯 Proje Mantığı ve İzlenen Strateji
+## Proje Mantığı ve İzlenen Strateji
 
 Yolculuk 4 ana aşamadan oluşmuştur:
 
@@ -26,9 +26,7 @@ Amaç yalnızca bir sınıflandırıcı kurmak değildi. Titanic veri setinde sk
 
 ---
 
-## 📁 Temiz Klasör Yapısı
-
-Repo sade tutulmuştur ve yalnızca yeniden üretilebilir, anlamlı artefaktlar bırakılmıştır.
+## Klasör Yapısı
 
 ```text
 titanic/
@@ -43,8 +41,6 @@ titanic/
 └── README.md
 ```
 
-Bu yapı sayesinde:
-
 - ham veri ayrı tutulur,
 - ara çıktı CSV’leri root klasörü kirletmez,
 - deney scriptleri tek bir üretim odaklı dosyada toplanır,
@@ -52,7 +48,7 @@ Bu yapı sayesinde:
 
 ---
 
-## 🛠️ 1. Eksik Veri Doldurma ve Temizleme
+##  1. Eksik Veri Doldurma ve Temizleme
 
 Veri setindeki en büyük eksikler `Age`, `Fare`, `Cabin` ve `Embarked` sütunlarındaydı.
 
@@ -77,7 +73,7 @@ Her yolcunun boş `Age` değeri, kendi unvan grubunun medyan yaşı ile tamamlan
 
 ---
 
-## 🧬 2. İleri Seviye Feature Engineering
+##  2. İleri Seviye Feature Engineering
 
 Skor artışının ana kaynağı burada oluştu. Özellikle grup yapısı ve sosyo-demografik ipuçları modelin ayrım gücünü belirgin biçimde artırdı.
 
@@ -126,7 +122,7 @@ Bu yaklaşım, hedef sızıntısını azaltırken yine de grup sinyalini modelin
 
 ---
 
-## 🤖 3. Model Eğitimi ve Threshold Optimizasyonu
+## 3. Model Eğitimi ve Threshold Optimizasyonu
 
 Nihai rekor modeli [src/main_record_model.py](src/main_record_model.py) içindedir.
 
@@ -179,7 +175,7 @@ Aşağıdaki tablo, proje boyunca yapılan ana denemeleri ve öğrenimleri özet
 
 ---
 
-## 🔍 Deneylerin Kısa Özeti
+##  Deneylerin Kısa Özeti
 
 ### İlk aşamalar
 
@@ -199,12 +195,12 @@ Sonuçta en iyi performans, dikkatli feature engineering + XGBoost + threshold o
 
 ---
 
-## 💻 Projeyi Yerelde Çalıştırma
+##  Projeyi Yerelde Çalıştırma
 
 ### 1. Repoyu klonlayın
 
 ```bash
-git clone https://github.com/KULLANICI_ADIN/titanic-kaggle-solution.git
+git clone https://github.com/fatfatma/titanic-kaggle-solution.git
 cd titanic-kaggle-solution
 ```
 
@@ -224,7 +220,7 @@ python src/main_record_model.py
 
 ---
 
-## 🛠️ Kullanılan Teknolojiler
+## Kullanılan Teknolojiler
 
 - Python 3.10+
 - Pandas ve NumPy: veri temizleme ve feature engineering
