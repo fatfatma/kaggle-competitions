@@ -27,7 +27,7 @@ kaggle_nlp/
 |---|----------|-------|--------------|-----|
 | 1 | TF-IDF + Logistic Regression (baseline, `C=1.0`) | 0.7414 | 0.79865 | first baseline |
 | 2 | TF-IDF + Logistic Regression (GridSearchCV optimize) | 0.7497 | 0.80140 | `C=5.0`, `max_features=20000`, `ngram_range=(1,2)`, `min_df=1` |
-| 3 | **DistilBERT (fine-tuned, 2 epoch)** | **0.8165** | | Colab GPU (T4) | Score: 0.83144 | 
+| 3 | **DistilBERT (fine-tuned, 2 epoch)** | **0.8165** | Score: 0.83144  | Colab GPU (T4) | 
 
 
 
